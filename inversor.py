@@ -11,7 +11,7 @@ def reverse(numero):
     dec = str(round((maxwd-maxld)*int(final)));
     return str(reverse(dec)+""+str(maxld));
 
-numero = input("What's your number? ")
+numero = input("What's your number nancy was here ? ")
 print ("original:  "+numero);
 print ("invertido: " + reverse(numero));
 input()
